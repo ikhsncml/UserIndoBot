@@ -63,10 +63,12 @@ from ubotindo.modules.helper_funcs.alternate import typing_action
 
 
 PM_START_TEXT = f"""
-Hey there! my name is *{dispatcher.bot.first_name}*.
-Any questions on how to use me? use /help
+Hey Bro! my name is *{dispatcher.bot.first_name}*.
+Saya adalah bot management group.
+Dibuat khusus untuk membuat group anda tetap nyaman dan aman terkendali .
+Saya bukan manusia yang bisa puasin nafsumu use /help untuk melihat fitur saya
 
-Join Our [Group](https://t.me/userbotindo) If You wanna Report Issue 🙂
+Join Our [Group](https://t.me/AnimeChatIndo) Gabung yaa kak 🙂
 
 I'm here to make your group management fun and easy!
 I have lots of handy features ☺️ such as :
@@ -74,7 +76,7 @@ I have lots of handy features ☺️ such as :
 • flood control.         • Note'S keeping system.
 • Warning System.   • Predetermined Filters.
 
-*Managed With ❤️ By :* [UserbotIndo Team](https://t.me/userbotindo)
+*Managed With ❤️ By :* [MASTER](https://t.me/Hyoneechan)
 
 Wanna Add me to your Group? Just click the button below!
 """
@@ -85,11 +87,23 @@ buttons = [
             text="Add to Group 👥", url="t.me/userbotindobot?startgroup=true"
         ),
         InlineKeyboardButton(
-            text="Gban Logs 🚫", url="https://t.me/UserIndoBotBannedLog"
+            text="Gban Logs 🚫", url="https://t.me/LogAnimeIndo"
         ),
     ]
 ]
 
+
+buttons += [
+    [
+        InlineKeyboardButton(
+            text="Help & Commands ❔",
+            url=f"t.me/{dispatcher.bot.username}?start=help",
+        ),
+        InlineKeyboardButton(
+            text="Support Group ➿", url="https://t.me/AnimeChatIndo"
+        ),
+    ]
+]
 
 buttons += [
     [
