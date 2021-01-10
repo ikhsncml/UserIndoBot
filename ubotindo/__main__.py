@@ -68,13 +68,13 @@ Saya adalah bot management group.
 Dibuat khusus untuk membuat group anda tetap nyaman dan aman terkendali .
 Saya bukan manusia yang bisa puasin nafsumu use /help untuk melihat fitur saya
 
-Join Our [Group](https://t.me/AnimeChatIndo) Gabung yaa kak 🙂
+Join Our [AnimeFansIndo](https://t.me/AnimeChatIndo) Gabung yaa kak 🙂
 
 I'm here to make your group management fun and easy!
 I have lots of handy features ☺️ such as :
 
-• flood control.         • Note'S keeping system.
-• Warning System.   • Predetermined Filters.
+• Manage BY.         • @Hyoneechan .
+• Support Channel.   • @MemesRpi .
 
 *Managed With ❤️ By :* [MASTER](https://t.me/Hyoneechan)
 
@@ -108,11 +108,11 @@ buttons += [
 buttons += [
     [
         InlineKeyboardButton(
-            text="Help & Commands ❔",
-            url=f"t.me/{dispatcher.bot.username}?start=help",
+            text="JOIN US RPI 🌐",
+            url="https://t.me/RPIrandompeopleindonesia",
         ),
         InlineKeyboardButton(
-            text="Support Group 🎗️", url="https://t.me/userbotindo"
+            text="Channel Memes 🔥", url="https://t.me/MemesRpi"
         ),
     ]
 ]
@@ -289,7 +289,7 @@ def start(update, context):
 
         else:
             update.effective_message.reply_photo(
-                "https://i.ibb.co/zJdLsyg/Userindobot.png",
+                "https://i.ibb.co/ZJGNz6z/ccff8d3d0d08c098453d3b23f46be62e.jpg",
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
